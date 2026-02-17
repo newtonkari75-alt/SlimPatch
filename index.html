@@ -143,7 +143,7 @@
                 <img src="images/gentle-patches-logo.png" alt="Gentle Patches Logo" class="h-8 md:h-10 w-auto" onerror="this.parentElement.innerHTML='<span class=\'font-black text-xl tracking-tighter\'>GENTLE™</span>'">
             </div>
             <div class="hidden md:flex gap-8 text-[10px] font-bold uppercase tracking-widest text-gray-500">
-                <a href="#how-it-works" class="hover:text-black transition" data-i18n="nav_science">Science</a>
+                <!-- Removido o link Ciência -->
                 <a href="#country-selection" class="hover:text-black transition" data-i18n="nav_availability">Availability</a>
                 <a href="#faq" class="hover:text-black transition" data-i18n="nav_faq">FAQ</a>
             </div>
@@ -178,17 +178,14 @@
                         <span class="bg-red-600 text-white px-3 py-1 rounded text-[10px] font-black uppercase tracking-tighter italic" data-i18n="promo_badge">Save 58% Today</span>
                     </div>
 
-                    <!-- NEW HEADLINE -->
                     <h1 class="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-black mb-6 leading-[1.15] animate-fade-up" style="animation-delay: 0.1s" data-i18n="headline">
                         Support Your Metabolism — Without Pills, Without Hassle
                     </h1>
                     
-                    <!-- NEW SUBHEADLINE -->
                     <p class="text-gray-600 text-lg mb-8 leading-relaxed font-medium max-w-xl animate-fade-up" style="animation-delay: 0.2s" data-i18n="subheadline">
                         Daily plant-based wellness patch designed to support metabolism, energy, and balance — delivered gently through your skin.
                     </p>
 
-                    <!-- UPDATED BULLET POINTS -->
                     <div class="space-y-3 mb-10 animate-fade-up" style="animation-delay: 0.3s">
                         <div class="flex items-start gap-4">
                             <div class="text-green-600 shrink-0 text-sm mt-0.5"><i class="fas fa-check"></i></div>
@@ -213,7 +210,6 @@
                     </div>
 
                     <div class="animate-fade-up" style="animation-delay: 0.4s">
-                        <!-- MAIN CTA + SECONDARY -->
                         <div class="flex flex-col gap-4">
                             <button onclick="document.getElementById('country-selection').scrollIntoView({ behavior: 'smooth' })" class="bg-primary hover:bg-gray-900 text-white font-bold text-lg md:text-xl py-4 px-6 rounded-2xl shadow-xl shadow-black/20 transition-all hover:scale-[1.01] active:scale-95 uppercase tracking-tight flex items-center justify-center gap-3">
                                 <span data-i18n="cta_check">👉 Check Availability In Your Area</span>
@@ -223,7 +219,6 @@
                             </button>
                         </div>
                         
-                        <!-- MICRO COPY -->
                         <p class="mt-4 text-center text-[10px] text-gray-400 font-medium uppercase tracking-wider" data-i18n="micro_copy">
                             Trusted by thousands worldwide • Secure checkout • Limited stock available
                         </p>
@@ -404,7 +399,7 @@
         const resources = {
             en: {
                 top_bar: "LIMITED STOCK | 58% DISCOUNT APPLIED | 30-DAY GUARANTEE",
-                nav_science: "Science", nav_availability: "Availability", nav_faq: "FAQ",
+                nav_availability: "Availability", nav_faq: "FAQ",
                 reviews_line: "⭐ 4.8 / 5 — Based on verified customer feedback",
                 promo_badge: "Save 58% Today",
                 headline: "Support Your Metabolism — Without Pills, Without Hassle",
@@ -438,7 +433,7 @@
             },
             de: {
                 top_bar: "BEGRENZTER VORRAT | 58% RABATT | 30 TAGE GARANTIE",
-                nav_science: "Wissenschaft", nav_availability: "Verfügbarkeit", nav_faq: "FAQ",
+                nav_availability: "Verfügbarkeit", nav_faq: "FAQ",
                 promo_badge: "Heute 58% sparen",
                 headline: "Unterstützen Sie Ihren Stoffwechsel – ohne Pillen, ohne Stress",
                 subheadline: "Tägliches pflanzliches Wellness-Pflaster zur Unterstützung von Stoffwechsel, Energie und Balance – sanft über die Haut aufgenommen.",
@@ -451,7 +446,7 @@
             },
             fr: {
                 top_bar: "STOCK LIMITÉ | 58% DE RÉDUCTION | GARANTIE 30 JOURS",
-                nav_science: "Science", nav_availability: "Disponibilité", nav_faq: "FAQ",
+                nav_availability: "Disponibilité", nav_faq: "FAQ",
                 promo_badge: "Économisez 58% aujourd'hui",
                 headline: "Soutenez votre métabolisme — sans pilules, sans tracas",
                 subheadline: "Patch de bien-être quotidien à base de plantes pour soutenir le métabolisme et l'énergie — délivré par la peau.",
