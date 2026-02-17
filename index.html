@@ -1,341 +1,579 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <!-- SEO CORE - ULTRA-OPTIMISÉ GOOGLE ADS 2026 -->
+    <!-- PERFORMANCE & CORE VITALS -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-    <title>Erexol™ France – Confort Prostatique & Vigueur Masculine | Site Officiel</title>
-    
-    <meta name="description" content="Découvrez Erexol™ : la solution bio-active n°1 pour le confort de la prostate et la vitalité masculine. Livraison discrète et paiement à la réception en France.">
-    <meta name="keywords" content="Erexol, confort prostate, vitalité homme, bien-être masculin, complément naturel, Erexol prix">
-    <link rel="canonical" href="https://erexol.hot24offers.shop/">
-    
-    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="theme-color" content="#ffffff">
 
-    <!-- OPEN GRAPH -->
-    <meta property="og:type" content="product">
-    <meta property="og:title" content="Erexol™ – Excellence et Vitalité Masculine">
-    <meta property="og:image" content="https://erexol.hot24offers.shop/images/erexol1.png">
-    <meta property="og:url" content="https://erexol.hot24offers.shop/">
-
-    <!-- PERFORMANCE & FAVICON -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- PRE-CONNECTIONS & PRELOADS -->
+    <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" type="image/png" href="images/erexol1.png">
     
+    <!-- MAIN SEO META TAGS -->
+    <title>Gentle Patches | Advanced Dermal Technology</title>
+    <meta name="title" content="Gentle Patches | Advanced Dermal Technology">
+    <meta name="description" content="Authorized information and availability portal for Gentle Patches. Advanced dermal technology for targeted wellness and comfort.">
+    
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="faviconV2.png">
+    <link rel="shortcut icon" type="image/png" href="faviconV2.png">
+    <link rel="apple-touch-icon" href="faviconV2.png">
+
+    <!-- LIBRARIES -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-
-    <!-- JSON-LD STRUCTURED DATA -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "Erexol™ France",
-      "image": "https://erexol.hot24offers.shop/images/erexol1.png",
-      "description": "Soutien naturel pour le confort prostatique.",
-      "brand": { "@type": "Brand", "name": "Erexol" },
-      "offers": {
-        "@type": "Offer",
-        "price": "39",
-        "priceCurrency": "EUR",
-        "availability": "https://schema.org/InStock"
-      }
-    }
-    </script>
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
     <style>
-        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; overflow-x: hidden; }
-        .bg-footer { background-color: #2A2A2A; }
-        .logo-filter { filter: brightness(0) saturate(100%) invert(14%) sepia(0%) saturate(0%) hue-rotate(320deg) brightness(97%) contrast(92%); }
-        .gradient-bg { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
-        .reveal { opacity: 0; transform: translateY(20px); transition: all 0.6s cubic-bezier(0.17, 0.55, 0.55, 1); }
-        .reveal.active { opacity: 1; transform: translateY(0); }
-        .btn-pulse { animation: pulse 2s infinite; }
-        @keyframes pulse {
-            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.4); }
-            70% { transform: scale(1.05); box-shadow: 0 0 0 12px rgba(250, 204, 21, 0); }
-            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(250, 204, 21, 0); }
+        body { 
+            font-family: 'Inter', sans-serif; 
+            -webkit-font-smoothing: antialiased; 
+            scroll-behavior: smooth; 
+            background-color: #ffffff;
+            color: #111111;
         }
-        .faq-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; }
-        .faq-item.active .faq-content { max-height: 400px; padding-bottom: 1rem; }
-        .faq-item.active .faq-icon { transform: rotate(180deg); }
-        #review-track { display: flex; transition: transform 0.8s cubic-bezier(0.65, 0, 0.35, 1); }
-        .review-slide { min-width: 100%; padding: 0.75rem; display: flex; justify-content: center; }
-        @media (min-width: 1024px) { .review-slide { min-width: 33.333%; } }
-        .testimonial-card {
-            background: #ffffff; border-radius: 1.5rem; padding: 1.75rem;
-            box-shadow: 0 15px 35px -10px rgba(59, 130, 246, 0.1);
-            border-top: 4px solid #3b82f6; display: flex; flex-direction: column;
-            justify-content: space-between; height: 100%; min-height: 340px;
+        .bg-primary { background-color: #000000; }
+        .text-primary { color: #000000; }
+        .border-primary { border-color: #000000; }
+        
+        .card-light {
+            background: #ffffff;
+            border: 1px solid #f3f4f6;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
-        .premium-offer-card {
-            background: linear-gradient(135deg, #24344d 0%, #131d2e 100%);
-            border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 2rem;
+        .card-light:hover {
+            border-color: #000000;
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.1);
         }
+
+        .carousel-wrapper {
+            position: relative;
+            width: 100%;
+            border-radius: 24px;
+            overflow: hidden;
+            background-color: #f9fafb;
+            aspect-ratio: 1 / 1; 
+        }
+
+        .carousel-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 0.8s ease-in-out;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .carousel-slide.active {
+            opacity: 1;
+            z-index: 10;
+        }
+        .carousel-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+        }
+
+        @keyframes fade-up {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-up { animation: fade-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.6);
+            backdrop-filter: blur(8px);
+        }
+        .modal-content {
+            background-color: #fff;
+            margin: 5% auto;
+            padding: 40px;
+            border-radius: 20px;
+            width: 92%;
+            max-width: 700px;
+            max-height: 85vh;
+            overflow-y: auto;
+            position: relative;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+        
+        #cookie-consent {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.98);
+            border-top: 1px solid #f0f0f0;
+            padding: 12px 16px; 
+            z-index: 9999;
+            box-shadow: 0 -4px 15px rgba(0,0,0,0.03);
+            display: none; 
+        }
+        
+        h1, h2, h3 { letter-spacing: -0.03em; }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-800">
+<body class="overflow-x-hidden selection:bg-black selection:text-white">
 
-    <!-- Header -->
-    <header class="bg-white border-b border-slate-100 sticky top-0 z-50 transition-all py-3 shadow-sm" id="header">
-        <div class="container mx-auto px-6 flex justify-center lg:justify-start">
-            <img src="images/imgi_1_info-logo.png" alt="Erexol France Officiel" class="h-8 lg:h-10 w-auto logo-filter">
-        </div>
-    </header>
+    <!-- TOP BAR -->
+    <div class="bg-primary text-white text-[10px] md:text-xs font-bold py-3 text-center uppercase tracking-[0.2em] px-5 sticky top-0 z-[60]" data-i18n="top_bar">
+        LIMITED STOCK AVAILABLE | SECURE YOUR DISCOUNT TODAY
+    </div>
 
-    <!-- Hero Section -->
-    <section class="gradient-bg text-white py-12 lg:py-20 overflow-hidden relative">
-        <div class="container mx-auto px-6 flex flex-col lg:grid lg:grid-cols-2 lg:items-center gap-10 lg:gap-16 relative z-10">
-            
-            <div class="order-1 lg:col-span-1 reveal">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight text-center lg:text-left tracking-tighter uppercase">
-                    Excellence & <span class="text-blue-400 italic">Confort Masculin</span>
-                </h1>
-                <p class="text-lg text-blue-100/90 mb-8 text-center lg:text-left font-medium max-w-lg">La formule bio-active de référence pour une sérénité jour et nuit.</p>
+    <!-- NAVBAR -->
+    <nav class="bg-white/80 border-b border-gray-100 py-4 backdrop-blur-xl sticky top-[38px] z-50">
+        <div class="container mx-auto px-6 md:px-12 max-w-7xl flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="images/gentle-patches-logo.png" alt="Gentle Patches Logo" class="h-8 md:h-10 w-auto" onerror="this.parentElement.innerHTML='<span class=\'font-black text-xl tracking-tighter\'>GENTLE™</span>'">
             </div>
-
-            <div class="order-2 lg:row-span-3 flex justify-center relative reveal" style="transition-delay: 0.1s">
-                <div class="relative z-10 w-[55%] lg:w-[80%] max-w-[280px] lg:max-w-[400px] transform hover:scale-105 transition-all duration-1000">
-                    <img src="images/erexol1.png" alt="Erexol Premium Edition" class="w-full h-auto drop-shadow-[0_25px_40px_rgba(0,0,0,0.6)]">
-                </div>
-                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 lg:w-[450px] lg:h-[450px] bg-blue-500 rounded-full blur-[90px] opacity-15"></div>
-            </div>
-
-            <div class="order-3 reveal" style="transition-delay: 0.2s">
-                <div class="space-y-4 mb-10">
-                    <div class="flex items-center space-x-3 justify-center lg:justify-start">
-                        <div class="shrink-0 w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 border border-blue-500/20">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
-                        </div>
-                        <p class="text-base font-bold text-blue-50">Équilibre prostatique optimal</p>
-                    </div>
-                    <div class="flex items-center space-x-3 justify-center lg:justify-start">
-                        <div class="shrink-0 w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 border border-blue-500/20">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
-                        </div>
-                        <p class="text-base font-bold text-blue-50">Sommeil continu sans interruption</p>
-                    </div>
-                    <div class="flex items-center space-x-3 justify-center lg:justify-start">
-                        <div class="shrink-0 w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 border border-blue-500/20">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
-                        </div>
-                        <p class="text-base font-bold text-blue-50">Vigueur et énergie retrouvées</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="order-4 w-full reveal" style="transition-delay: 0.3s">
-                <div class="premium-offer-card p-6 lg:p-8 relative overflow-hidden group">
-                    <div class="flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-8">
-                        <div class="text-center lg:text-left">
-                            <div class="flex flex-col items-center lg:items-start leading-none">
-                                <span class="text-[10px] text-gray-400 uppercase font-bold mb-1 italic">Offre de lancement : <span class="line-through">78€</span></span>
-                                <span class="text-6xl font-black tracking-tighter text-yellow-400">39€</span>
-                            </div>
-                        </div>
-                        <div class="w-full lg:w-auto text-center">
-                            <a href="#order-form-container" class="block w-full lg:px-16 bg-yellow-400 text-blue-900 px-6 py-4 rounded-2xl font-black text-xl lg:text-2xl hover:bg-yellow-300 transition-all transform hover:scale-105 shadow-xl uppercase tracking-tighter btn-pulse">
-                                Commander
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="hidden md:flex gap-8 text-[10px] font-bold uppercase tracking-widest text-gray-500">
+                <a href="#how-it-works" class="hover:text-black transition" data-i18n="nav_science">Science</a>
+                <a href="#country-selection" class="hover:text-black transition" data-i18n="nav_availability">Availability</a>
+                <a href="#faq" class="hover:text-black transition" data-i18n="nav_faq">FAQ</a>
             </div>
         </div>
-    </section>
+    </nav>
 
-    <!-- Ingredients -->
-    <section class="py-16 lg:py-24 bg-white">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-2xl lg:text-4xl font-black mb-12 uppercase tracking-tighter reveal">Le Pouvoir du Naturel</h2>
-            <div class="grid grid-cols-2 md:grid-cols-5 gap-6 lg:gap-8">
-                <div class="reveal">
-                    <img src="images/palmette.png" alt="Palmier Nain" class="w-16 h-16 lg:w-20 lg:h-20 rounded-full mx-auto mb-4 object-cover border-2 border-slate-100 shadow-sm">
-                    <h3 class="font-black text-[10px] lg:text-xs uppercase text-slate-900">Palmier Nain</h3>
-                </div>
-                <div class="reveal" style="transition-delay: 0.1s">
-                    <img src="images/fleurs.png" alt="Épilobe" class="w-16 h-16 lg:w-20 lg:h-20 rounded-full mx-auto mb-4 object-cover border-2 border-slate-100 shadow-sm">
-                    <h3 class="font-black text-[10px] lg:text-xs uppercase text-slate-900">Épilobe</h3>
-                </div>
-                <div class="reveal" style="transition-delay: 0.2s">
-                    <img src="images/péruvienne.png" alt="Maca" class="w-16 h-16 lg:w-20 lg:h-20 rounded-full mx-auto mb-4 object-cover border-2 border-slate-100 shadow-sm">
-                    <h3 class="font-black text-[10px] lg:text-xs uppercase text-slate-900">Maca</h3>
-                </div>
-                <div class="reveal" style="transition-delay: 0.3s">
-                    <img src="images/d'ortie.png" alt="Ortie" class="w-16 h-16 lg:w-20 lg:h-20 rounded-full mx-auto mb-4 object-cover border-2 border-slate-100 shadow-sm">
-                    <h3 class="font-black text-[10px] lg:text-xs uppercase text-slate-900">Ortie</h3>
-                </div>
-                <div class="reveal" style="transition-delay: 0.4s">
-                    <img src="images/ginseng.png" alt="Ginseng" class="w-16 h-16 lg:w-20 lg:h-20 rounded-full mx-auto mb-4 object-cover border-2 border-slate-100 shadow-sm">
-                    <h3 class="font-black text-[10px] lg:text-xs uppercase text-slate-900">Ginseng</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Review Section -->
-    <section class="py-16 lg:py-24 bg-blue-50 border-y border-blue-100 overflow-hidden">
-        <div class="container mx-auto px-6 relative z-10 text-center">
-            <h2 class="text-3xl lg:text-4xl font-black mb-12 uppercase tracking-tighter reveal">Avis de nos Clients</h2>
-            
-            <div id="review-carousel-container" class="reveal">
-                <div id="review-track">
-                    <div class="review-slide">
-                        <div class="testimonial-card">
-                            <p class="text-base text-slate-700 italic leading-relaxed mb-6 text-left">"Erexol a transformé mes nuits. Je me réveille enfin reposé et sans gêne. Un indispensable."</p>
-                            <div class="flex items-center border-t border-slate-100 pt-4">
-                                <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center font-black text-white mr-3 text-xs">JL</div>
-                                <div class="text-left">
-                                    <span class="block font-black text-slate-900 uppercase text-[10px]">Jean-Luc, Paris</span>
-                                    <span class="text-[9px] text-green-600 font-bold uppercase tracking-widest italic">Achat Vérifié</span>
-                                </div>
-                            </div>
+    <!-- HERO SECTION -->
+    <section class="bg-white py-12 md:py-20 border-b border-gray-50 overflow-hidden">
+        <div class="container mx-auto px-6 md:px-12 max-w-7xl">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+                
+                <!-- COLUNA 1: CARROSSEL -->
+                <div class="w-full order-1 lg:order-1">
+                    <div class="carousel-wrapper shadow-2xl shadow-gray-200/50">
+                        <div class="carousel-slide active">
+                            <img src="images/gentle-patches.png" alt="Gentle Patches Display 1">
                         </div>
-                    </div>
-                    <div class="review-slide">
-                        <div class="testimonial-card">
-                            <p class="text-base text-slate-700 italic leading-relaxed mb-6 text-left">"Ma vitalité est de retour. Je me sens physiquement beaucoup plus performant au quotidien."</p>
-                            <div class="flex items-center border-t border-slate-100 pt-4">
-                                <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center font-black text-white mr-3 text-xs">M</div>
-                                <div class="text-left">
-                                    <span class="block font-black text-slate-900 uppercase text-[10px]">Marc, Lyon</span>
-                                    <span class="text-[9px] text-green-600 font-bold uppercase tracking-widest italic">Achat Vérifié</span>
-                                </div>
-                            </div>
+                        <div class="carousel-slide">
+                            <img src="images/gentle-patches1.png" alt="Gentle Patches Display 2">
                         </div>
-                    </div>
-                    <div class="review-slide">
-                        <div class="testimonial-card">
-                            <p class="text-base text-slate-700 italic leading-relaxed mb-6 text-left">"Livraison rapide sous 48h et colis totalement discret. Service impeccable et produit efficace."</p>
-                            <div class="flex items-center border-t border-slate-100 pt-4">
-                                <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center font-black text-white mr-3 text-xs">A</div>
-                                <div class="text-left">
-                                    <span class="block font-black text-slate-900 uppercase text-[10px]">André, Nantes</span>
-                                    <span class="text-[9px] text-green-600 font-bold uppercase tracking-widest italic">Achat Vérifié</span>
-                                </div>
-                            </div>
+                        <div class="carousel-slide">
+                            <img src="images/gentle-patches2.jpg" alt="Gentle Patches Display 3">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/gentle-patches3.png" alt="Gentle Patches Display 4">
+                        </div>
+                        <!-- NOVA FOTO ADICIONADA -->
+                        <div class="carousel-slide">
+                            <img src="images/gentle-patches4.jpg" alt="Gentle Patches Display 5">
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Form Section -->
-    <section id="order" class="py-16 lg:py-24 bg-white relative overflow-hidden">
-        <div class="container mx-auto px-6 max-w-5xl relative z-10" id="order-form-container">
-            <div class="gradient-bg rounded-[2rem] lg:rounded-[3rem] overflow-hidden shadow-2xl grid lg:grid-cols-2 reveal">
-                <div class="bg-blue-600/30 p-8 lg:p-12 text-white flex flex-col justify-center text-center lg:text-left relative">
-                    <img src="images/erexol1.png" alt="Commander Erexol" class="w-24 lg:w-32 mx-auto mb-8 drop-shadow-2xl">
-                    <h2 class="text-3xl lg:text-4xl font-black mb-6 tracking-tighter uppercase text-yellow-400">Finalisez votre Cure</h2>
+                <!-- COLUNA 2: CONTEÚDO HERO -->
+                <div class="w-full order-2 lg:order-2 text-left flex flex-col justify-center h-full">
+                    <div class="flex items-center gap-3 mb-6 animate-fade-up">
+                        <div class="flex text-yellow-400 text-sm gap-0.5">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <span class="text-gray-500 font-bold text-xs uppercase tracking-widest border-l border-gray-200 pl-3" data-i18n="reviews">
+                            4.9 | 50,000+ Happy Customers
+                        </span>
+                    </div>
                     
-                    <div class="space-y-3 mb-8 text-[11px] font-bold uppercase tracking-wide">
-                        <div class="flex items-center justify-center lg:justify-start gap-2">
-                            <span class="text-green-400">✓</span> Envoi Rapide & Discret
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-black mb-6 leading-[1.15] animate-fade-up" style="animation-delay: 0.1s" data-i18n="headline">
+                        Targeted Relief. <br><span class="text-gray-400">Purely Gentle.</span>
+                    </h1>
+                    
+                    <p class="text-gray-600 text-lg mb-8 leading-relaxed font-medium max-w-xl animate-fade-up" style="animation-delay: 0.2s" data-i18n="subheadline">
+                        Experience the next generation of dermal care. Gentle Patches deliver active support exactly where you need it most, without the mess or discomfort.*
+                    </p>
+
+                    <div class="space-y-4 mb-10 animate-fade-up" style="animation-delay: 0.3s">
+                        <div class="flex items-start gap-4">
+                            <div class="bg-black text-white w-5 h-5 rounded-full flex items-center justify-center shrink-0 text-[10px] mt-1"><i class="fas fa-check"></i></div>
+                            <p class="text-sm md:text-base font-semibold text-gray-800" data-i18n="feat1">Advanced time-release dermal technology.</p>
                         </div>
-                        <div class="flex items-center justify-center lg:justify-start gap-2 text-yellow-400">
-                            <span>€</span> Paiement uniquement à la livraison
+                        <div class="flex items-start gap-4">
+                            <div class="bg-black text-white w-5 h-5 rounded-full flex items-center justify-center shrink-0 text-[10px] mt-1"><i class="fas fa-check"></i></div>
+                            <p class="text-sm md:text-base font-semibold text-gray-800" data-i18n="feat2">Hypoallergenic and skin-safe adhesive.</p>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="bg-black text-white w-5 h-5 rounded-full flex items-center justify-center shrink-0 text-[10px] mt-1"><i class="fas fa-check"></i></div>
+                            <p class="text-sm md:text-base font-semibold text-gray-800" data-i18n="feat3">Discreet, waterproof, and ultra-comfortable.</p>
                         </div>
                     </div>
 
-                    <div class="p-5 bg-blue-500/20 rounded-2xl border border-blue-400/30">
-                        <div class="flex items-baseline justify-center lg:justify-start gap-3">
-                            <span class="text-4xl lg:text-5xl font-black text-white tracking-tighter">39€</span>
-                            <span class="text-lg text-gray-400 line-through">78€</span>
+                    <div class="animate-fade-up" style="animation-delay: 0.4s">
+                        <div class="inline-flex items-center gap-2 mb-6 bg-green-50 text-green-800 px-3 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-wide border border-green-100">
+                            <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                            <span data-i18n="stock">Verified Official Stock Available</span>
+                        </div>
+                        
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <button onclick="document.getElementById('country-selection').scrollIntoView({ behavior: 'smooth' })" class="flex-1 bg-primary hover:bg-gray-900 text-white font-bold text-lg md:text-xl py-4 md:py-5 px-6 rounded-2xl shadow-xl shadow-black/20 transition-all hover:scale-[1.02] active:scale-95 uppercase tracking-tight flex items-center justify-center gap-3">
+                                <span data-i18n="cta_check">Check Availability In Your Area</span>
+                                <i class="fas fa-chevron-down text-sm"></i>
+                            </button>
                         </div>
                     </div>
-                </div>
-                <div class="p-8 lg:p-16 bg-white">
-                    <form method="POST" action="order.php" class="space-y-4">
-                        <input type="text" name="name" placeholder="Nom et prénom" class="w-full px-6 py-4 rounded-xl border-2 border-slate-100 focus:border-blue-500 outline-none transition bg-slate-50 text-slate-900 font-bold" required>
-                        <input type="tel" name="phone" placeholder="Numéro de téléphone" class="w-full px-6 py-4 rounded-xl border-2 border-slate-100 focus:border-blue-500 outline-none transition bg-slate-50 text-slate-900 font-bold" onkeyup="this.value=this.value.replace(/\s/g,'')" minlength="5" required>
-
-                        <input type="hidden" name="sub1" value="">
-                        <input type="hidden" name="sub2" value="">
-                        <input type="hidden" name="sub3" value="">
-                        <input type="hidden" name="sub4" value="">
-                        <input type="hidden" name="sub5" value="">
-
-                        <button type="submit" class="w-full bg-blue-600 text-white font-black py-5 rounded-xl text-lg shadow-xl hover:bg-blue-700 transition uppercase tracking-tighter btn-pulse">
-                            Commander Maintenant
-                        </button>
-                    </form>
-                    <p class="text-center text-[10px] text-slate-400 mt-8 uppercase font-black italic">Confidentialité garantie</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- COUNTRY SELECTION -->
+    <section id="country-selection" class="py-24 bg-gray-50 border-t border-b border-gray-100">
+        <div class="container mx-auto px-6 md:px-12 max-w-7xl text-center">
+            <h2 class="text-3xl md:text-5xl font-extrabold mb-4 tracking-tight text-black" data-i18n="region_title">Select Your Region</h2>
+            <p class="text-gray-500 mb-12" data-i18n="region_sub">Check local shipping times and exclusive bundle discounts.</p>
+            
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-8 max-w-5xl mx-auto">
+                <!-- Australia -->
+                <a href="#" class="card-light p-6 rounded-3xl flex flex-col items-center gap-4 group bg-white">
+                    <img src="https://flagcdn.com/w80/au.png" class="w-12 h-auto rounded shadow-sm" alt="Australia">
+                    <span class="font-bold text-black group-hover:text-gray-600 transition">Australia</span>
+                    <span class="text-[9px] bg-black text-white px-4 py-1.5 rounded-full font-bold uppercase" data-i18n="btn_select">Select</span>
+                </a>
+                <!-- Austria -->
+                <a href="#" class="card-light p-6 rounded-3xl flex flex-col items-center gap-4 group bg-white">
+                    <img src="https://flagcdn.com/w80/at.png" class="w-12 h-auto rounded shadow-sm" alt="Austria">
+                    <span class="font-bold text-black group-hover:text-gray-600 transition">Austria</span>
+                    <span class="text-[9px] bg-black text-white px-4 py-1.5 rounded-full font-bold uppercase" data-i18n="btn_select">Select</span>
+                </a>
+                <!-- Canada -->
+                <a href="#" class="card-light p-6 rounded-3xl flex flex-col items-center gap-4 group bg-white">
+                    <img src="https://flagcdn.com/w80/ca.png" class="w-12 h-auto rounded shadow-sm" alt="Canada">
+                    <span class="font-bold text-black group-hover:text-gray-600 transition">Canada</span>
+                    <span class="text-[9px] bg-black text-white px-4 py-1.5 rounded-full font-bold uppercase" data-i18n="btn_select">Select</span>
+                </a>
+                <!-- Denmark -->
+                <a href="#" class="card-light p-6 rounded-3xl flex flex-col items-center gap-4 group bg-white">
+                    <img src="https://flagcdn.com/w80/dk.png" class="w-12 h-auto rounded shadow-sm" alt="Denmark">
+                    <span class="font-bold text-black group-hover:text-gray-600 transition">Denmark</span>
+                    <span class="text-[9px] bg-black text-white px-4 py-1.5 rounded-full font-bold uppercase" data-i18n="btn_select">Select</span>
+                </a>
+                <!-- Germany -->
+                <a href="#" class="card-light p-6 rounded-3xl flex flex-col items-center gap-4 group bg-white">
+                    <img src="https://flagcdn.com/w80/de.png" class="w-12 h-auto rounded shadow-sm" alt="Germany">
+                    <span class="font-bold text-black group-hover:text-gray-600 transition">Germany</span>
+                    <span class="text-[9px] bg-black text-white px-4 py-1.5 rounded-full font-bold uppercase" data-i18n="btn_select">Select</span>
+                </a>
+                <!-- Netherlands -->
+                <a href="#" class="card-light p-6 rounded-3xl flex flex-col items-center gap-4 group bg-white">
+                    <img src="https://flagcdn.com/w80/nl.png" class="w-12 h-auto rounded shadow-sm" alt="Netherlands">
+                    <span class="font-bold text-black group-hover:text-gray-600 transition">Netherlands</span>
+                    <span class="text-[9px] bg-black text-white px-4 py-1.5 rounded-full font-bold uppercase" data-i18n="btn_select">Select</span>
+                </a>
+                <!-- Switzerland -->
+                <a href="#" class="card-light p-6 rounded-3xl flex flex-col items-center gap-4 group bg-white">
+                    <img src="https://flagcdn.com/w80/ch.png" class="w-12 h-auto rounded shadow-sm" alt="Switzerland">
+                    <span class="font-bold text-black group-hover:text-gray-600 transition">Switzerland</span>
+                    <span class="text-[9px] bg-black text-white px-4 py-1.5 rounded-full font-bold uppercase" data-i18n="btn_select">Select</span>
+                </a>
+                <!-- United Kingdom -->
+                <a href="#" class="card-light p-6 rounded-3xl flex flex-col items-center gap-4 group bg-white">
+                    <img src="https://flagcdn.com/w80/gb.png" class="w-12 h-auto rounded shadow-sm" alt="United Kingdom">
+                    <span class="font-bold text-black group-hover:text-gray-600 transition">United Kingdom</span>
+                    <span class="text-[9px] bg-black text-white px-4 py-1.5 rounded-full font-bold uppercase" data-i18n="btn_select">Select</span>
+                </a>
+                <!-- United States -->
+                <a href="#" class="card-light p-6 rounded-3xl flex flex-col items-center gap-4 group bg-white">
+                    <img src="https://flagcdn.com/w80/us.png" class="w-12 h-auto rounded shadow-sm" alt="United States">
+                    <span class="font-bold text-black group-hover:text-gray-600 transition">United States</span>
+                    <span class="text-[9px] bg-black text-white px-4 py-1.5 rounded-full font-bold uppercase" data-i18n="btn_select">Select</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- EEAT SECTION -->
+    <section class="bg-white py-16 border-b border-gray-100">
+        <div class="container mx-auto px-6 md:px-12 max-w-4xl text-center">
+            <span class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-4 block" data-i18n="eeat_title">Scientific Backing & Trust</span>
+            <h3 class="text-2xl font-bold mb-6" data-i18n="eeat_head">Why Experts Recommend Gentle Patches</h3>
+            <p class="text-gray-600 leading-relaxed mb-0" data-i18n="eeat_text">
+                Our team meticulously vets wellness technologies that prioritize both efficacy and user safety. Gentle Patches stand out due to their non-invasive delivery system and commitment to hypoallergenic, skin-first materials. We provide direct access to verified stock to ensure every customer receives the authentic, high-performance product.
+            </p>
         </div>
     </section>
 
     <!-- FAQ -->
-    <section class="py-16 lg:py-24 bg-slate-50">
-        <div class="container mx-auto px-6 max-w-3xl">
-            <h2 class="text-2xl lg:text-4xl font-black mb-12 uppercase tracking-tighter text-center reveal">Questions Fréquentes</h2>
-            <div class="space-y-4 reveal">
-                <div class="faq-item border border-slate-200 rounded-2xl overflow-hidden bg-white shadow-sm">
-                    <button class="w-full flex items-center justify-between p-6 text-left outline-none" onclick="toggleFaq(this)">
-                        <span class="font-black text-slate-900 text-base">Erexol est-il sûr pour un usage quotidien ?</span>
-                        <div class="faq-icon w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 transition shrink-0">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg>
-                        </div>
-                    </button>
-                    <div class="faq-content px-6">
-                        <p class="text-slate-600 text-sm">Oui. Erexol est formulé à partir d'extraits naturels purifiés, sans additifs chimiques agressifs, pour un soutien quotidien optimal.</p>
+    <section id="faq" class="bg-white py-24">
+        <div class="container mx-auto px-6 md:px-12 max-w-3xl">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12 tracking-tight text-black" data-i18n="faq_title">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                <details class="group card-light rounded-2xl shadow-sm transition-all bg-white">
+                    <summary class="p-6 font-bold cursor-pointer flex justify-between items-center text-lg list-none select-none">
+                        <span data-i18n="faq_1_q">How long should I wear a patch?</span>
+                        <span class="text-black transition-transform group-open:rotate-45 duration-300"><i class="fas fa-plus text-sm"></i></span>
+                    </summary>
+                    <div class="p-6 pt-0 text-gray-600 leading-relaxed border-t border-gray-50 animate-fade-in" data-i18n="faq_1_a">
+                        For optimal results, we recommend wearing the patch for 8 to 12 hours. The adhesive is designed to stay secure even during movement or sleep.
                     </div>
-                </div>
-                <div class="faq-item border border-slate-200 rounded-2xl overflow-hidden bg-white shadow-sm">
-                    <button class="w-full flex items-center justify-between p-6 text-left outline-none" onclick="toggleFaq(this)">
-                        <span class="font-black text-slate-900 text-base">Quelle est la durée de la cure ?</span>
-                        <div class="faq-icon w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 transition shrink-0">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg>
-                        </div>
-                    </button>
-                    <div class="faq-content px-6">
-                        <p class="text-slate-600 text-sm">Pour des résultats durables, nous recommandons une cure de 30 jours minimum. Une cure de 90 jours est idéale pour une vitalité consolidée.</p>
+                </details>
+                <details class="group card-light rounded-2xl shadow-sm transition-all bg-white">
+                    <summary class="p-6 font-bold cursor-pointer flex justify-between items-center text-lg list-none select-none">
+                        <span data-i18n="faq_2_q">Are the patches waterproof?</span>
+                        <span class="text-black transition-transform group-open:rotate-45 duration-300"><i class="fas fa-plus text-sm"></i></span>
+                    </summary>
+                    <div class="p-6 pt-0 text-gray-600 leading-relaxed border-t border-gray-50 animate-fade-in" data-i18n="faq_2_a">
+                        Yes! Gentle Patches are water-resistant. You can shower or light exercise while wearing them without worrying about them peeling off.
                     </div>
-                </div>
+                </details>
+                <details class="group card-light rounded-2xl shadow-sm transition-all bg-white">
+                    <summary class="p-6 font-bold cursor-pointer flex justify-between items-center text-lg list-none select-none">
+                        <span data-i18n="faq_3_q">Is it safe for sensitive skin?</span>
+                        <span class="text-black transition-transform group-open:rotate-45 duration-300"><i class="fas fa-plus text-sm"></i></span>
+                    </summary>
+                    <div class="p-6 pt-0 text-gray-600 leading-relaxed border-t border-gray-50 animate-fade-in" data-i18n="faq_3_a">
+                        Absolutely. We use a hypoallergenic, latex-free adhesive that is designed to be gentle on all skin types.
+                    </div>
+                </details>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-footer text-slate-500 py-12">
-        <div class="container mx-auto px-6 text-center">
-            <div class="mb-6 opacity-30 hover:opacity-100 transition-opacity">
-                <img src="images/imgi_1_info-logo.png" alt="Erexol Footer" class="h-6 mx-auto">
+    <!-- FOOTER -->
+    <footer class="bg-gray-50 pt-24 pb-12 border-t border-gray-200">
+        <div class="container mx-auto px-6 md:px-12 text-center max-w-7xl">
+            <div class="mb-16">
+                <div class="inline-flex items-center gap-3 bg-white px-8 py-4 rounded-full border border-gray-200 shadow-sm">
+                    <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                    <span class="text-[10px] md:text-xs text-gray-500 font-bold uppercase tracking-[0.2em]" data-i18n="auth_partner">Official Distribution Portal</span>
+                </div>
             </div>
-            <div class="mb-6 text-[9px] uppercase tracking-widest font-bold opacity-60">Distributeur Agréé France</div>
-            <div class="text-[8px] space-y-1 mb-8 opacity-30 font-medium">
-                <p class="font-bold uppercase">SUMMER ALLIANCE LTD</p>
-                <p>Reg. No. 195655 | Mahe, Seychelles</p>
+
+            <div class="mb-16 space-y-4 text-xs md:text-sm text-gray-500 max-w-2xl mx-auto">
+                <h4 class="font-bold uppercase tracking-widest mb-6 text-black" data-i18n="footer_contact">Contact & Support</h4>
+                <p>Physical Address: John M. Keynesplein 1, 1066EP Amsterdam, Netherlands</p>
+                <div class="pt-6 flex flex-col md:flex-row justify-center items-center gap-8 font-bold">
+                    <a href="mailto:support@gentle-patches.com" class="hover:text-black transition text-gray-600"><i class="fas fa-envelope mr-2 text-black"></i> support@gentle-patches.com</a>
+                    <a href="tel:+12395102199" class="hover:text-black transition text-gray-600"><i class="fas fa-phone mr-2 text-black"></i> +1 (239) 510-2199</a>
+                </div>
             </div>
-            <div class="border-t border-white/5 pt-8 text-[8px] uppercase tracking-[0.4em] opacity-20 italic italic">
-                © 2026 Erexol™ France - Tous droits réservés.
+
+            <div class="text-[10px] text-gray-400 italic mb-12 border-t border-gray-200 pt-12 max-w-4xl mx-auto" data-i18n="footer_disclaimer">
+                <strong>Disclaimer:</strong> Gentle Patches are for cosmetic/wellness support. Statements have not been evaluated by regulatory bodies. This product is not intended to diagnose, treat, or cure any medical condition. Individual results vary.
+            </div>
+
+            <!-- LEGAL LINKS -->
+            <div class="flex flex-wrap justify-center gap-6 md:gap-10 text-[10px] font-bold uppercase tracking-widest mb-12 text-gray-500">
+                <button onclick="openModal('privacy')" class="hover:text-black transition border-b border-transparent hover:border-black pb-0.5" data-i18n="link_privacy">Privacy Policy</button>
+                <button onclick="openModal('terms')" class="hover:text-black transition border-b border-transparent hover:border-black pb-0.5" data-i18n="link_terms">Terms & Conditions</button>
+                <button onclick="openModal('shipping')" class="hover:text-black transition border-b border-transparent hover:border-black pb-0.5" data-i18n="link_shipping">Shipping</button>
+                <button onclick="openModal('returns')" class="hover:text-black transition border-b border-transparent hover:border-black pb-0.5" data-i18n="link_returns">Returns</button>
+            </div>
+
+            <div class="text-[9px] text-gray-400 tracking-[0.2em] uppercase">
+                <p>© 2026 Gentle Patches Authorized Portal. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
+    <!-- COOKIE BANNER -->
+    <div id="cookie-consent">
+        <div class="container mx-auto max-w-6xl flex flex-col sm:flex-row items-center justify-between gap-3 md:gap-4">
+            <p class="text-[10px] md:text-xs text-gray-600 leading-tight text-center sm:text-left" data-i18n="cookie_text">
+                We use cookies to improve experience. By clicking "Accept", you consent to our <button onclick="openModal('privacy')" class="underline text-black font-bold">Privacy Policy</button>.
+            </p>
+            <div class="flex gap-2 sm:gap-3 w-full sm:w-auto justify-center">
+                <button onclick="document.getElementById('cookie-consent').style.display='none'" class="flex-1 sm:flex-none px-4 py-1.5 bg-gray-100 text-gray-600 text-[10px] md:text-xs font-bold rounded-lg hover:bg-gray-200 transition border border-gray-200" data-i18n="cookie_decline">Decline</button>
+                <button onclick="document.getElementById('cookie-consent').style.display='none'" class="flex-1 sm:flex-none px-4 py-1.5 bg-black text-white text-[10px] md:text-xs font-bold rounded-lg hover:bg-black transition" data-i18n="cookie_accept">Accept</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL -->
+    <div id="policyModal" class="modal" onclick="if(event.target == this) closeModal()">
+        <div class="modal-content text-left">
+            <button onclick="closeModal()" class="sticky top-0 float-right text-4xl font-bold p-2 text-gray-400 hover:text-red-500 transition-colors bg-white rounded-full z-10 w-12 h-12 flex items-center justify-center shadow-sm">&times;</button>
+            <div id="modalBody" class="pt-6 text-gray-600 text-sm leading-relaxed space-y-6"></div>
+        </div>
+    </div>
+
     <script>
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('active'); });
-        }, { threshold: 0.1 });
-        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-
-        let current = 0;
-        const track = document.getElementById('review-track');
-        function updateReview() {
-            const isDesktop = window.innerWidth >= 1024;
-            current = (current + 1) >= (isDesktop ? 1 : 3) ? 0 : current + 1;
-            track.style.transform = `translateX(-${current * (isDesktop ? 33.333 : 100)}%)`;
+        // Lógica do carrossel
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.carousel-slide');
+        
+        function nextSlide() {
+            if (slides.length === 0) return;
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add('active');
         }
-        setInterval(updateReview, 4000);
+        setInterval(nextSlide, 4000);
 
-        function toggleFaq(button) {
-            const item = button.parentElement;
-            const active = item.classList.contains('active');
-            document.querySelectorAll('.faq-item').forEach(el => el.classList.remove('active'));
-            if (!active) item.classList.add('active');
+        // Consentimento de cookies
+        setTimeout(() => {
+            document.getElementById('cookie-consent').style.display = 'block';
+        }, 1500);
+
+        // DICIONÁRIO DE TRADUÇÃO (SISTEMA MULTI-IDIOMA)
+        const resources = {
+            en: {
+                top_bar: "LIMITED STOCK AVAILABLE | SECURE YOUR DISCOUNT TODAY",
+                nav_science: "Science", nav_availability: "Availability", nav_faq: "FAQ",
+                reviews: "4.9 | 50,000+ Happy Customers",
+                headline: "Targeted Relief. Purely Gentle.",
+                subheadline: "Experience the next generation of dermal care. Gentle Patches deliver active support exactly where you need it most, without the mess or discomfort.*",
+                feat1: "Advanced time-release dermal technology.",
+                feat2: "Hypoallergenic and skin-safe adhesive.",
+                feat3: "Discreet, waterproof, and ultra-comfortable.",
+                stock: "Verified Official Stock Available",
+                cta_check: "Check Availability In Your Area",
+                region_title: "Select Your Region",
+                region_sub: "Check local shipping times and exclusive bundle discounts.",
+                btn_select: "Select",
+                faq_title: "Frequently Asked Questions",
+                faq_1_q: "How long should I wear a patch?",
+                faq_1_a: "For optimal results, we recommend wearing the patch for 8 to 12 hours. The adhesive is designed to stay secure even during movement or sleep.",
+                faq_2_q: "Are the patches waterproof?",
+                faq_2_a: "Yes! Gentle Patches are water-resistant. You can shower or light exercise while wearing them without worrying about them peeling off.",
+                faq_3_q: "Is it safe for sensitive skin?",
+                faq_3_a: "Absolutely. We use a hypoallergenic, latex-free adhesive that is designed to be gentle on all skin types.",
+                eeat_title: "Scientific Backing & Trust",
+                eeat_head: "Why Experts Recommend Gentle Patches",
+                eeat_text: "Our team meticulously vets wellness technologies that prioritize both efficacy and user safety. Gentle Patches stand out due to their non-invasive delivery system and commitment to hypoallergenic, skin-first materials.",
+                auth_partner: "Official Distribution Portal",
+                footer_contact: "Contact & Support",
+                footer_disclaimer: "Disclaimer: Gentle Patches are for cosmetic/wellness support. Statements have not been evaluated by regulatory bodies. This product is not intended to diagnose, treat, or cure any medical condition. Individual results vary.",
+                link_privacy: "Privacy Policy", link_terms: "Terms & Conditions", link_shipping: "Shipping", link_returns: "Returns",
+                cookie_text: "We use cookies to improve experience. By clicking \"Accept\", you consent to our Privacy Policy.",
+                cookie_decline: "Decline", cookie_accept: "Accept"
+            },
+            de: {
+                top_bar: "BEGRENZTER VORRAT VERFÜGBAR | SICHERN SIE SICH NOCH HEUTE IHREN RABATT",
+                nav_science: "Wissenschaft", nav_availability: "Verfügbarkeit", nav_faq: "FAQ",
+                reviews: "4.9 | 50.000+ zufriedene Kunden",
+                headline: "Gezielte Linderung. Rein sanft.",
+                subheadline: "Erleben Sie die nächste Generation der Hautpflege. Gentle Patches bieten aktive Unterstützung genau dort, wo Sie sie am meisten brauchen, ohne Schmutz oder Unbehagen.*",
+                feat1: "Fortschrittliche Dermal-Technologie mit Zeitfreisetzung.",
+                feat2: "Hypoallergener und hautfreundlicher Klebstoff.",
+                feat3: "Diskret, wasserfest und extrem komfortabel.",
+                stock: "Verifizierter offizieller Bestand verfügbar",
+                cta_check: "Verfügbarkeit in Ihrer Nähe prüfen",
+                region_title: "Wählen Sie Ihre Region",
+                region_sub: "Prüfen Sie lokale Lieferzeiten und exklusive Paket-Rabatte.",
+                btn_select: "Auswählen",
+                faq_title: "Häufig gestellte Fragen",
+                faq_1_q: "Wie lange sollte ich ein Pflaster tragen?",
+                faq_1_a: "Für optimale Ergebnisse empfehlen wir, das Pflaster 8 bis 12 Stunden lang zu tragen. Der Klebstoff ist so konzipiert, dass er auch bei Bewegung oder Schlaf sicher hält.",
+                faq_2_q: "Sind die Pflaster wasserfest?",
+                faq_2_a: "Ja! Gentle Patches sind wasserfest. Sie können duschen oder leichten Sport treiben, ohne sich Sorgen machen zu müssen, dass sie sich ablösen.",
+                faq_3_q: "Ist es sicher für empfindliche Haut?",
+                faq_3_a: "Absolut. Wir verwenden einen hypoallergenen, latexfreien Klebstoff, der so konzipiert ist, dass er für alle Hauttypen sanft ist.",
+                eeat_title: "Wissenschaftliche Untermauerung & Vertrauen",
+                eeat_head: "Warum Experten Gentle Patches empfehlen",
+                eeat_text: "Unser Team prüft sorgfältig Wellness-Technologien, bei denen sowohl die Wirksamkeit als auch die Sicherheit der Benutzer im Vordergrund stehen. Gentle Patches zeichnen sich durch ihr nicht-invasives Abgabesystem und ihr Engagement für hypoallergene, hautfreundliche Materialien aus.",
+                auth_partner: "Offizielles Vertriebsportal",
+                footer_contact: "Kontakt & Unterstützung",
+                footer_disclaimer: "Haftungsausschluss: Gentle Patches dienen der kosmetischen/Wellness-Unterstützung. Die Aussagen wurden nicht von Aufsichtsbehörden bewertet.",
+                link_privacy: "Datenschutz", link_terms: "AGB", link_shipping: "Versand", link_returns: "Rückgabe",
+                cookie_text: "Wir verwenden Cookies. Durch Klicken auf \"Akzeptieren\" stimmen Sie unseren Datenschutzbestimmungen zu.",
+                cookie_decline: "Ablehnen", cookie_accept: "Akzeptieren"
+            },
+            fr: {
+                top_bar: "STOCK LIMITÉ DISPONIBLE | PROFITEZ DE VOTRE REMISE AUJOURD'HUI",
+                nav_science: "Science", nav_availability: "Disponibilité", nav_faq: "FAQ",
+                reviews: "4.9 | 50 000+ clients satisfaits",
+                headline: "Soulagement ciblé. Purement doux.",
+                subheadline: "Découvrez la nouvelle génération de soins cutanés. Les Gentle Patches apportent un soutien actif là où vous en avez le plus besoin, sans désordre ni inconfort.*",
+                feat1: "Technologie dermique avancée à libération prolongée.",
+                feat2: "Adhésif hypoallergénique et sans danger pour la peau.",
+                feat3: "Discret, imperméable et ultra-confortable.",
+                stock: "Stock officiel vérifié disponible",
+                cta_check: "Vérifier la disponibilité dans votre zone",
+                region_title: "Sélectionnez votre région",
+                region_sub: "Vérifiez les délais de livraison et les remises exclusives.",
+                btn_select: "Sélectionner",
+                faq_title: "Questions fréquemment posées",
+                faq_1_q: "Combien de temps dois-je porter un patch ?",
+                faq_1_a: "Pour des résultats optimaux, nous recommandons de porter le patch pendant 8 à 12 heures. L'adhésif est conçu pour rester en place même pendant les mouvements ou le sommeil.",
+                eeat_title: "Soutien scientifique et confiance",
+                eeat_head: "Pourquoi les experts recommandent les Gentle Patches",
+                auth_partner: "Portail de distribution officiel",
+                footer_contact: "Contact et assistance",
+                link_privacy: "Confidentialité", link_terms: "Conditions", link_shipping: "Livraison", link_returns: "Retours",
+                cookie_text: "Nous utilisons des cookies. En cliquant sur « Accepter », vous consentez à notre politique de confidentialité.",
+                cookie_decline: "Refuser", cookie_accept: "Accepter"
+            },
+            da: {
+                top_bar: "BEGRÆNSET LAGER TILGÆNGELIGT | SIKR DIN RABAT I DAG",
+                nav_science: "Videnskab", nav_availability: "Tilgængelighed", nav_faq: "FAQ",
+                reviews: "4.9 | 50.000+ glade kunder",
+                headline: "Målrettet lindring. Helt igennem mildt.",
+                subheadline: "Oplev den næste generation af hudpleje. Gentle Patches leverer aktiv støtte præcis hvor du har brug for det mest.*",
+                stock: "Bekræftet officielt lager tilgængeligt",
+                cta_check: "Tjek tilgængelighed i dit område",
+                region_title: "Vælg din region",
+                btn_select: "Vælg",
+                faq_title: "Ofte stillede spørgsmål",
+                auth_partner: "Officiel distributionsportal",
+                link_privacy: "Privatlivspolitik", link_terms: "Vilkår", link_shipping: "Forsendelse", link_returns: "Returnering",
+                cookie_text: "Vi bruger cookies. Ved at klikke på \"Accepter\" accepterer du vores privatlivspolitik.",
+                cookie_decline: "Afvis", cookie_accept: "Accepter"
+            },
+            nl: {
+                top_bar: "BEPERKTE VOORRAAD BESCHIKBAAR | CLAIM VANDAAG JE KORTING",
+                nav_science: "Wetenschap", nav_availability: "Beschikbaarheid", nav_faq: "FAQ",
+                reviews: "4.9 | 50.000+ tevreden klanten",
+                headline: "Gerichte verlichting. Puur zacht.",
+                subheadline: "Ervaar de volgende generatie huidverzorging. Gentle Patches bieden actieve ondersteuning precies waar je het nodig hebt.*",
+                stock: "Geverifieerde officiële voorraad beschikbaar",
+                cta_check: "Controleer beschikbaarheid in jouw regio",
+                region_title: "Selecteer je regio",
+                btn_select: "Selecteer",
+                faq_title: "Veelgestelde vragen",
+                auth_partner: "Officieel distributieportaal",
+                link_privacy: "Privacybeleid", link_terms: "Voorwaarden", link_shipping: "Verzending", link_returns: "Retourneren",
+                cookie_text: "Wij gebruiken cookies. Door op \"Accepteren\" te klikken, stem je in met ons privacybeleid.",
+                cookie_decline: "Weigeren", cookie_accept: "Accepteren"
+            }
+        };
+
+        function setLanguage(lang) {
+            // Se o idioma não for suportado, volta para o inglês
+            const selectedLang = resources[lang] ? lang : 'en';
+            const texts = resources[selectedLang];
+            
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (texts[key]) el.innerText = texts[key];
+            });
+            document.documentElement.lang = selectedLang;
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Detecta o idioma do navegador (ex: 'en-US' vira 'en')
+            const browserLang = navigator.language.split('-')[0];
+            setLanguage(browserLang);
+        });
+
+        // Lógica de Modais
+        const modalContent = {
+            privacy: `<h2 class="text-2xl font-bold mb-4 text-black border-b pb-2">Privacy Policy</h2><p>Your privacy is paramount. We use secure encryption to protect your information and never share data with unauthorized third parties.</p>`,
+            terms: `<h2 class="text-2xl font-bold mb-4 text-black border-b pb-2">Terms & Conditions</h2><p>By using this portal, you agree to our terms of service regarding official distribution and authorized stock verification.</p>`,
+            shipping: `<h2 class="text-2xl font-bold mb-4 text-black border-b pb-2">Shipping Information</h2><p>Standard delivery for the selected regions (AU, AT, CA, DK, DE, NL, CH, UK, US) takes 3-7 business days.</p>`,
+            returns: `<h2 class="text-2xl font-bold mb-4 text-black border-b pb-2">Returns</h2><p>We offer a 30-day satisfaction guarantee. If you are not satisfied with your purchase, please contact our support team.</p>`
+        };
+
+        function openModal(type) {
+            document.getElementById('modalBody').innerHTML = modalContent[type] || '<p>Content not available.</p>';
+            document.getElementById('policyModal').style.display = "block";
+            document.body.style.overflow = "hidden";
+        }
+        function closeModal() {
+            document.getElementById('policyModal').style.display = "none";
+            document.body.style.overflow = "auto";
         }
     </script>
 </body>
